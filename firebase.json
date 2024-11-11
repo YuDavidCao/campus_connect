@@ -1,0 +1,55 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "campus-connect-database",
+          "appId": "1:592934975576:android:9ed6ab42431131a057322d",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "campus-connect-database",
+          "appId": "1:592934975576:ios:a51ca7fca0b1532657322d",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "campus-connect-database",
+          "appId": "1:592934975576:ios:a51ca7fca0b1532657322d",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "campus-connect-database",
+          "configurations": {
+            "android": "1:592934975576:android:9ed6ab42431131a057322d",
+            "ios": "1:592934975576:ios:a51ca7fca0b1532657322d",
+            "macos": "1:592934975576:ios:a51ca7fca0b1532657322d",
+            "web": "1:592934975576:web:84d244ce4aea300557322d",
+            "windows": "1:592934975576:web:d1b3d558407a7b7557322d"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
